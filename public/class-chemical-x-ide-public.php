@@ -49,7 +49,7 @@ class Chemical_X_Ide_Public {
 		exit;
 	}
 
-	private function is_dev_mode(): boolean {
+	private function is_dev_mode(): bool {
 		if ( isset( $_GET['prod'] ) ) {
 			return false;
 		}
